@@ -1,9 +1,9 @@
 // !STARTERCONF You can delete this page
 import clsx from 'clsx';
-import * as React from 'react';
+import { useState } from 'react';
 
 import Button from '@/components/buttons/Button';
-import Layout from '@/components/layout/Layout';
+import Layout from '@/components/Layout';
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 import PrimaryLink from '@/components/links/PrimaryLink';
@@ -16,8 +16,8 @@ import Skeleton from '@/components/Skeleton';
 type Color = typeof colorList[number];
 
 export default function ComponentsPage() {
-  const [mode, setMode] = React.useState<'dark' | 'light'>('light');
-  const [color, setColor] = React.useState<Color>('sky');
+  const [mode, setMode] = useState<'dark' | 'light'>('dark');
+  const [color, setColor] = useState<Color>('sky');
   function toggleMode() {
     return mode === 'dark' ? setMode('light') : setMode('dark');
   }

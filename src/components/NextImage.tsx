@@ -38,10 +38,10 @@ export default function NextImage({
 
   return (
     <figure
-      style={!widthIsSet ? { width: `${width}px` } : undefined}
+      style={{width: `${width}px`}}
       className={className}
     >
-      <Image
+      <Image  
         className={clsxm(
           imgClassName,
           status === 'loading' && clsxm('animate-pulse', blurClassName)

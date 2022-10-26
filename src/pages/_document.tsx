@@ -14,7 +14,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang='en'>
+      <Html lang='en' className='dark text-primary-900 bg-primary-200 dark:bg-primary-900 dark:text-primary-900'>
         <Head>
           <link
             rel='preload'
@@ -24,7 +24,7 @@ class MyDocument extends Document {
             crossOrigin='anonymous'
           />
         </Head>
-        <body>
+        <body className='text-primary-900 bg-primary-200 dark:bg-primary-900 dark:text-primary-900'>
           <Main />
           <NextScript />
         </body>
