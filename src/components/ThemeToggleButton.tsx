@@ -1,5 +1,3 @@
-import { DarkModeProvider } from "@/contexts/ThemeContext"
-
 export const ThemeToggleButton = () => {
-
-}
+  return <div>Toggle</div>;
+};

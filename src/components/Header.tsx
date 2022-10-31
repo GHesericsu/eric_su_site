@@ -7,13 +7,13 @@ const links = [
   { href: '/components', label: 'components' },
 ];
 
-export default function Header(props: any) {
+export default function Header() {
   return (
-    <header className='sticky top-0 bg-primary-200 dark:bg-primary-800 dark:text-primary-200 z-10'>
+    <header className='sticky top-0 z-10 bg-primary-200 dark:bg-primary-900 dark:text-primary-200'>
       <div className='layout flex h-14 max-w-screen-sm items-center justify-center'>
         <h1>Who is Eric Su?</h1>
       </div>
-      <div className='layout flex h-8 max-w-screen-sm items-center justify-between mb-2'>
+      <div className='layout mb-2 flex h-8 max-w-screen-sm items-center justify-between'>
         <UnderlineLink href='/' className='font-bold hover:text-white'>
           Home
         </UnderlineLink>

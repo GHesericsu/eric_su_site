@@ -37,11 +37,8 @@ export default function NextImage({
   const widthIsSet = className?.includes('w-') ?? false;
 
   return (
-    <figure
-      style={{width: `${width}px`}}
-      className={className}
-    >
-      <Image  
+    <figure style={{ width: `${width}px` }} className={className}>
+      <Image
         className={clsxm(
           imgClassName,
           status === 'loading' && clsxm('animate-pulse', blurClassName)
@@ -51,7 +48,6 @@ export default function NextImage({
         height={height}
         alt={alt}
         onLoadingComplete={() => setStatus('complete')}
-        layout='responsive'
         {...rest}
       />
     </figure>

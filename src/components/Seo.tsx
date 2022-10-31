@@ -5,8 +5,7 @@ import { useRouter } from 'next/router';
 const defaultMeta = {
   title: 'Eric Su is...?',
   siteName: 'Eric Su is...?',
-  description:
-    'Who is Erc Su?',
+  description: 'Who is Erc Su?',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
   url: 'https://ericsu.xyz',
   type: 'website',

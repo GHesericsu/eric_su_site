@@ -11,7 +11,7 @@ module.exports = {
         primary: ['Inter', ...fontFamily.sans],
       },
       colors: {
-        primary: {  
+        primary: {
           // Customize it on globals.css :root
           50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',
           100: 'rgb(var(--tw-color-primary-100) / <alpha-value>)',
@@ -24,7 +24,22 @@ module.exports = {
           800: 'rgb(var(--tw-color-primary-800) / <alpha-value>)',
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
         },
-        dark: '#222222',
+        dark: {
+          bg: {
+            900: '#111827',
+            800: '#1f2937',
+          },
+          txt: {
+            200: '#e5e7eb',
+            100: '#f3f4f6',
+          },
+        },
+        light: {
+          bg: {
+            200: '#e5e7eb',
+            100: '#f3f4f6',
+          },
+        },
       },
       keyframes: {
         flicker: {

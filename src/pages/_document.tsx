@@ -14,7 +14,10 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang='en' className='dark text-primary-900 bg-primary-200 dark:bg-primary-900 dark:text-primary-900'>
+      <Html
+        lang='en'
+        className='dark bg-primary-200 text-primary-900 dark:bg-primary-900 dark:text-primary-900'
+      >
         <Head>
           <link
             rel='preload'
@@ -24,7 +27,7 @@ class MyDocument extends Document {
             crossOrigin='anonymous'
           />
         </Head>
-        <body className='text-primary-900 bg-primary-200 dark:bg-primary-900 dark:text-primary-900'>
+        <body className='bg-primary-200 text-primary-900 dark:bg-primary-900 dark:text-primary-900'>
           <Main />
           <NextScript />
         </body>

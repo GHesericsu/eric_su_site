@@ -27,8 +27,10 @@
   --color-primary-900: rgb(var(--tw-color-primary-900)); /* #111827 */
   /* #endregion  /**======== Primary Color =========== */
 
-  
+  --dark-bg-900: #111827;
+  --dark-bg-800: #1f2937;
 
+  --dark-txt-100: ;
 }
 
 @layer base {
