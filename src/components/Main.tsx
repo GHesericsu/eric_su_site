@@ -1,4 +1,5 @@
 import ButtonLink from '@/components/links/ButtonLink';
+import PrimaryLink from '@/components/links/PrimaryLink';
 import NextImage from '@/components/NextImage';
 
 export const Main = () => {
@@ -19,8 +20,9 @@ export const Main = () => {
             Web<span className='animate-bounce '>3</span> Dev
           </h1>
           <p>
-            It's Eric Su here. I worked on Jet Protocol from July 2021 to July
-            2022.
+            It's Eric Su here. I worked on{' '}
+            <PrimaryLink href='http://jetprotocol.io'>Jet Protocol</PrimaryLink>{' '}
+            from July 2021 to July 2022.
           </p>
         </div>
       </div>
@@ -28,7 +30,7 @@ export const Main = () => {
       <ButtonLink
         className='mt-6 hover:shadow-lg'
         href='/components'
-        variant='light'
+        variant='dark'
       >
         See all components
       </ButtonLink>
