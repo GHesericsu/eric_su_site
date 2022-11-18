@@ -16,7 +16,7 @@ class MyDocument extends Document {
     return (
       <Html
         lang='en'
-        className='dark bg-primary-200 text-primary-900 dark:bg-primary-900 dark:text-primary-900'
+        className='dark dark:light-bg-200 bg-primary-200 text-lg text-primary-900 dark:text-primary-900'
       >
         <Head>
           <link

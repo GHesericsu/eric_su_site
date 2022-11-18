@@ -2,15 +2,15 @@ import ButtonLink from '@/components/links/ButtonLink';
 import PrimaryLink from '@/components/links/PrimaryLink';
 import NextImage from '@/components/NextImage';
 
-export const Main = () => {
+const Main = () => {
   return (
     <div className='layout flex max-w-screen-sm flex-col items-center text-center'>
       <div className='shadow-black drop-shadow-lg'>
         <NextImage
           useSkeleton
-          src='/images/lisbon.jpg'
-          width='500'
-          height='350'
+          src='/images/eric_su_photo1.jpeg'
+          width='300'
+          height='200'
           alt='Eric Su'
         />
       </div>
@@ -37,3 +37,5 @@ export const Main = () => {
     </div>
   );
 };
+
+export default Main;
