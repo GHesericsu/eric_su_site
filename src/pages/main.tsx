@@ -12,6 +12,7 @@ const Main = () => {
           width='300'
           height='200'
           alt='Eric Su'
+          imgClassName='rounded-[50%]'
         />
       </div>
       <div>

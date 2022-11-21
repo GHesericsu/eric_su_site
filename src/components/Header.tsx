@@ -10,7 +10,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className='sticky top-0 z-10 bg-primary-200 dark:bg-primary-900 dark:text-primary-200'>
+    <header className='sticky top-0 z-10 mb-5 bg-primary-200 dark:bg-primary-900 dark:text-primary-200'>
       <div className='layout h-20 max-w-screen-sm flex-col justify-items-center'>
         <div className='flex justify-center py-2'>
           <h1 data-testid='ericsu'>Who is Eric Su?</h1>
@@ -69,7 +69,7 @@ export default function Header() {
                 viewBox='0 0 24 24'
                 fill='none'
                 stroke='currentColor'
-                strokeWidth='4'
+                strokeWidth='2'
                 strokeLinecap='round'
                 strokeLinejoin='round'
               >
