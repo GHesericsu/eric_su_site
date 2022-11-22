@@ -3,6 +3,10 @@ module.exports = {
   eslint: {
     dirs: ['src'],
   },
+  //next 13 feature
+  experimental: {
+    appDir: true,
+  },
 
   reactStrictMode: true,
 

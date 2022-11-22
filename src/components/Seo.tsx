@@ -9,7 +9,7 @@ const defaultMeta = {
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
   url: 'https://ericsu.xyz',
   type: 'website',
-  robots: 'follow, index',
+  robots: 'nofollow, index',
   /**
    * No need to be filled, will be populated with openGraph function
    * If you wish to use a normal image, just specify the path below
