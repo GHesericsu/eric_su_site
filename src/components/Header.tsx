@@ -10,11 +10,13 @@ const links = [
 
 export default function Header() {
   return (
-    <header className='sticky top-0 z-10 mb-5 bg-primary-200 dark:bg-primary-900 dark:text-primary-200'>
+    <header className='sticky top-0 z-10 mb-5'>
       <div className='layout h-20 max-w-screen-sm flex-col justify-items-center'>
-        <div className='flex justify-between py-2'>
-          <h1 data-testid='ericsu'>Who is Eric Su?</h1>
-          <div className='hidden md:block'>
+        <div className='relative py-2'>
+          <h1 data-testid='ericsu' className='text-center'>
+            Who is Eric Su?
+          </h1>
+          <div className='absolute right-0 top-5 hidden md:block'>
             <ThemeToggleButton />
           </div>
         </div>
@@ -26,7 +28,7 @@ export default function Header() {
               rel='noopener noreferrer'
             >
               <svg
-                className='mx-2 h-6 w-6 cursor-pointer dark:text-primary-200 dark:hover:text-blue-400 dark:active:text-blue-600'
+                className='mx-2 h-6 w-6 cursor-pointer hover:scale-110 dark:hover:text-blue-400 dark:active:text-blue-600'
                 viewBox='0 0 24 24'
                 fill='none'
                 stroke='currentColor'
@@ -46,7 +48,7 @@ export default function Header() {
               rel='noopener noreferrer'
             >
               <svg
-                className='mx-2 h-6 w-6 cursor-pointer dark:text-primary-200   dark:hover:text-blue-400 dark:active:text-blue-600'
+                className='mx-2 h-6 w-6 cursor-pointer hover:scale-110 dark:hover:text-blue-400 dark:active:text-blue-600'
                 viewBox='0 0 24 24'
                 fill='none'
                 stroke='currentColor'
@@ -68,7 +70,7 @@ export default function Header() {
               rel='noopener noreferrer'
             >
               <svg
-                className='mx-2 h-6 w-6 cursor-pointer dark:text-primary-200 dark:hover:text-blue-400 dark:active:text-blue-600'
+                className='mx-2 h-6 w-6 cursor-pointer hover:scale-110 dark:hover:text-blue-400 dark:active:text-blue-600'
                 viewBox='0 0 24 24'
                 fill='none'
                 stroke='currentColor'

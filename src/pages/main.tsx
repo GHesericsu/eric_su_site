@@ -1,8 +1,11 @@
+import useTheme from 'next-theme';
+
 import ButtonLink from '@/components/links/ButtonLink';
 import PrimaryLink from '@/components/links/PrimaryLink';
 import NextImage from '@/components/NextImage';
 
 const Main = () => {
+  const { theme } = useTheme();
   return (
     <div className='layout flex max-w-screen-sm flex-col items-center text-center'>
       <div className='shadow-black drop-shadow-lg'>
@@ -31,7 +34,7 @@ const Main = () => {
       <ButtonLink
         className='mt-6 hover:shadow-lg'
         href='/components'
-        variant='dark'
+        variant='primary'
       >
         See all components
       </ButtonLink>

@@ -5529,6 +5529,11 @@ next-sitemap@^2.5.28:
     "@corex/deepmerge" "^2.6.148"
     minimist "^1.2.6"
 
+next-theme@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/next-theme/-/next-theme-0.1.5.tgz#aa6655c516892925e577349d7715a8ed54bad727"
+  integrity sha512-WR8UCLEFjWvRl+UO2lTM4pGo7R4jzGZqQ6YL3hiL1Ns587Qb91GhJZLPu/Aa4ExtGQ/5wlcDX8zDYZoCN9oDPw==
+
 next@^13.0.0:
   version "13.0.0"
   resolved "https://registry.npmjs.org/next/-/next-13.0.0.tgz"

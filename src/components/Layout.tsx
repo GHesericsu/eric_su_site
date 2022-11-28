@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Header />
       <main>
         <section>
-          <div className='layout flex min-h-screen max-w-screen-sm justify-center text-center dark:bg-primary-900 dark:text-primary-200'>
+          <div className='layout flex min-h-screen max-w-screen-sm justify-center text-center'>
             {children}
           </div>
         </section>
