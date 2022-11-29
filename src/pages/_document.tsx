@@ -17,7 +17,6 @@ function MyDocument() {
       </Head>
       <body className='bg-light-bg-200 text-light-text-800 dark:bg-dark-bg-900 dark:text-dark-text-200'>
         <Main />
-        {theme}
         <NextScript />
       </body>
     </Html>

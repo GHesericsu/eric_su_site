@@ -10,7 +10,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className='sticky top-0 z-10 mb-5'>
+    <header className='sticky top-0 z-50 mb-5 dark:bg-dark-bg-900 bg-light-bg-200'>
       <div className='layout h-20 max-w-screen-sm flex-col justify-items-center'>
         <div className='relative py-2'>
           <h1 data-testid='ericsu' className='text-center'>
