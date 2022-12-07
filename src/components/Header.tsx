@@ -86,14 +86,17 @@ export default function Header() {
         </div>
       </div>
       <div className='layout mb-2 flex h-8 max-w-screen-sm items-center justify-between'>
-        <UnderlineLink href='/' className='font-bold hover:text-white'>
+        <UnderlineLink
+          href='/'
+          className='font-bold hover:text-light-text-800 hover:dark:text-white'
+        >
           Home
         </UnderlineLink>
         <nav>
           <ul className='flex items-center justify-between space-x-4'>
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>
-                <UnderlineLink href={href} className='hover:text-white'>
+                <UnderlineLink href={href} className=''>
                   {label}
                 </UnderlineLink>
               </li>

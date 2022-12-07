@@ -7,6 +7,10 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      backgroundImage: {
+        wavesDark: "url('./public/svg/wavesDark.svg')",
+        shapesLight: "url('./public/svg/shapesLight.svg)",
+      },
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },
