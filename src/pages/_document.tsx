@@ -15,7 +15,7 @@ function MyDocument() {
           crossOrigin='anonymous'
         />
       </Head>
-      <body className='bg-light-bg-200 text-light-text-800 dark:bg-dark-bg-900 dark:text-dark-text-200'>
+      <body className='bg-light-bg-1 text-light-text-1 dark:bg-dark-bg-1 dark:text-dark-text-1'>
         <Main />
         <NextScript />
       </body>

@@ -30,22 +30,22 @@ module.exports = {
         },
         dark: {
           bg: {
-            900: '#111827',
-            800: '#1f2937',
+            1: 'var(--dark-bg-1)',
+            2: 'var(--dark-bg-2)',
           },
           text: {
-            200: '#e5e7eb',
-            100: '#f3f4f6',
+            1: 'var(--dark-text-1)',
+            2: 'var(--dark-text-2)',
           },
         },
         light: {
           bg: {
-            200: '#e5e7eb',
-            100: '#f3f4f6',
+            1: 'var(--light-bg-1)',
+            2: 'var(--light-bg-2)',
           },
           text: {
-            900: '#18181b',
-            800: '#27272a',
+            1: 'var(--light-text-1)',
+            2: 'var(--light-text-2)',
           },
         },
       },

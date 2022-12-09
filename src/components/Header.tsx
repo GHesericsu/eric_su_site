@@ -6,11 +6,12 @@ import { ThemeToggleButton } from '@/components/ThemeToggleButton';
 const links = [
   { href: '/about', label: 'About' },
   { href: '/resume', label: 'Resume' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 export default function Header() {
   return (
-    <header className='sticky top-0 z-50 mb-5 bg-light-bg-200 dark:bg-dark-bg-900'>
+    <header className='bg-light-bg-200 sticky top-0 z-50 mb-5 dark:bg-dark-bg-1'>
       <div className='layout h-20 max-w-screen-sm flex-col justify-items-center'>
         <div className='relative py-2'>
           <h1 data-testid='ericsu' className='text-center'>
@@ -88,7 +89,7 @@ export default function Header() {
       <div className='layout mb-2 flex h-8 max-w-screen-sm items-center justify-between'>
         <UnderlineLink
           href='/'
-          className='font-bold hover:text-light-text-800 hover:dark:text-white'
+          className='font-bold hover:text-light-text-1 hover:dark:text-white'
         >
           Home
         </UnderlineLink>
