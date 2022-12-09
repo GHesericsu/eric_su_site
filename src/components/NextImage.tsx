@@ -34,7 +34,7 @@ export default function NextImage({
   const [status, setStatus] = React.useState(
     useSkeleton ? 'loading' : 'complete'
   );
-  const widthIsSet = className?.includes('w-') ?? false;
+  // const widthIsSet = className?.includes('w-') ?? false;
 
   return (
     <figure style={{ width: `${width}px` }} className={className}>

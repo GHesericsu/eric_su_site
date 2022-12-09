@@ -17,9 +17,6 @@ function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [show, setShow] = useState(false);
 
-  const onSubmit = (data: MessageData) => {
-    console.log('ONSUBMIT DATA', data);
-  };
   const sendEmail = (data: Record<string, unknown>, event: any) => {
     if (event) {
       emailjs
@@ -30,10 +27,12 @@ function Contact() {
           process.env.NEXT_PUBLIC_EMAILJS_API_PUBKEY
         )
         .then((res) => {
+          // eslint-disable-next-line
           console.log('EMAILJS SUCCESSFUL RESPONSE', res);
           setIsSubmitted(true);
         })
         .catch((err) => {
+          // eslint-disable-next-line
           console.log('EMAILJS ERROR', err);
         });
     } else {
@@ -66,7 +65,6 @@ function Contact() {
             className='w-full rounded-xl border border-primary-500 bg-dark-bg-2'
             onSubmit={handleSubmit(
               (data, e) => {
-                onSubmit(data);
                 sendEmail(data, e);
               },
               (err) => console.log(err)
