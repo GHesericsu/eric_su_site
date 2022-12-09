@@ -1,10 +1,7 @@
-import useTheme from 'next-theme';
-
 import PrimaryLink from '@/components/links/PrimaryLink';
 import NextImage from '@/components/NextImage';
 
 const Main = () => {
-  const { theme } = useTheme();
   return (
     <div className='layout flex max-w-screen-sm flex-col items-center text-center'>
       <div className=''>

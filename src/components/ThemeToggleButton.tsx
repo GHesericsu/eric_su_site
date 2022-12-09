@@ -10,10 +10,8 @@ export function ThemeToggleButton() {
   function toggleTheme() {
     if (theme === 'dark') {
       setTheme('light');
-      console.log('light');
     } else {
       setTheme('dark');
-      console.log('dark');
     }
   }
 
