@@ -56,73 +56,75 @@ function Contact() {
 
   return (
     <Layout>
-      <div className='min-w-[80%] flex-col p-3'>
+      <div className='flex-col p-3 md:min-w-[80%]'>
         <div className='mb-5'>
           <h1>Contact Me</h1>
         </div>
-        <div>
-          <form
-            className='w-full rounded-xl border border-primary-500 bg-dark-bg-2'
-            onSubmit={handleSubmit(
-              (data, e) => {
-                sendEmail(data, e);
-              },
-              (err) => console.log(err)
-            )}
-          >
-            <div className='my-4'>
-              <div>
-                <label htmlFor='name' className='mr-3'>
-                  Your Name:
-                </label>
+        <div className='flex justify-center'>
+          <div className='m-auto px-6'>
+            <form
+              className=''
+              onSubmit={handleSubmit(
+                (data, e) => {
+                  sendEmail(data, e);
+                },
+                (err) => console.log(err)
+              )}
+            >
+              <div className='my-1 flex justify-between px-2'>
+                <div>
+                  <label htmlFor='name' className='mr-3'>
+                    Name:
+                  </label>
+                </div>
+                <div>
+                  <input
+                    type='text'
+                    placeholder='Name'
+                    {...register('name', {})}
+                    className='rounded-lg text-black focus:ring md:min-w-[24rem]'
+                  ></input>
+                </div>
+              </div>
+              <div className='my-1 flex justify-between px-2'>
+                <div>
+                  <label htmlFor='email' className='mr-3'>
+                    Email:
+                  </label>
+                </div>
+                <div>
+                  <input
+                    type='email'
+                    placeholder='Email Address'
+                    {...register('email', {})}
+                    className='rounded-lg text-black focus:ring md:min-w-[24rem]'
+                  ></input>
+                </div>
+              </div>
+              <div className='my-1 flex justify-between px-2'>
+                <div>
+                  <label htmlFor='message' className='mr-3'>
+                    Message:{' '}
+                  </label>
+                </div>
+                <div className=''>
+                  <textarea
+                    placeholder='Example: Hi Eric, I would like to have a quick chat about a web3 dev opportunity next Wednesday.'
+                    {...register('message', {})}
+                    className='min-h-[10rem] rounded-lg text-black focus:ring md:min-w-[24rem]'
+                  ></textarea>
+                </div>
               </div>
               <div>
-                <input
-                  type='text'
-                  placeholder='Name'
-                  {...register('name', {})}
-                  className='text-black'
-                ></input>
+                <Button
+                  className='mb-4 inline-block w-[7rem] text-center'
+                  type='submit'
+                >
+                  Send
+                </Button>
               </div>
-            </div>
-            <div className='my-4'>
-              <div>
-                <label htmlFor='email' className='mr-3'>
-                  Your Email:
-                </label>
-              </div>
-              <div>
-                <input
-                  type='email'
-                  placeholder='Email Address'
-                  {...register('email', {})}
-                  className='text-black'
-                ></input>
-              </div>
-            </div>
-            <div className='my-4'>
-              <div>
-                <label htmlFor='message' className='mr-3'>
-                  Your Message:{' '}
-                </label>
-              </div>
-              <div>
-                <textarea
-                  placeholder='Message'
-                  {...register('message', {})}
-                  className='text-black'
-                ></textarea>
-              </div>
-            </div>
-            <div>
-              <Button
-                className='mb-4 inline-block w-[7rem] text-center'
-                type='submit'
-              >
-                Send
-              </Button>
-            </div>
-          </form>
+            </form>
+          </div>
           <div className='my-4'>
             {show ? 'Message has been sent. Thank you for the message!' : null}
           </div>
