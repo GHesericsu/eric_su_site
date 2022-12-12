@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Header />
-      <main className={'z-0' + theme === 'dark' ? 'wavesDark' : 'wavesLight'}>
+      <main className={theme === 'dark' ? 'wavesDark' : 'wavesLight'}>
         <section>
           <div className='layout flex min-h-screen max-w-screen-sm justify-center text-center'>
             {children}

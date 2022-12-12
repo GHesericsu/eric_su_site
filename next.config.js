@@ -5,7 +5,7 @@ module.exports = {
   },
   //next 13 feature
   experimental: {
-    appDir: false,
+    appDir: true,
   },
 
   reactStrictMode: true,
