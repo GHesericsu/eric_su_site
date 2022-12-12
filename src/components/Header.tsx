@@ -11,9 +11,9 @@ const links = [
 
 export default function Header() {
   return (
-    <header className='bg-light-bg-200 sticky top-0 z-50 mb-5 dark:bg-dark-bg-1'>
+    <header className='layout z-100 sticky top-0 mb-5 overflow-visible bg-light-bg-1 dark:bg-dark-bg-1'>
       <div className='layout h-20 max-w-screen-sm flex-col justify-items-center'>
-        <div className='relative py-2'>
+        <div className='z-100 relative py-2'>
           <h1 data-testid='ericsu' className='text-center'>
             Who is Eric Su?
           </h1>

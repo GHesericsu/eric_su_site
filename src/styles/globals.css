@@ -145,3 +145,7 @@
   background-position: center top;
   background-size: cover;
 }
+
+.header {
+  z-index: 100 !important;
+}
