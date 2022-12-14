@@ -23,7 +23,7 @@ function DevBio() {
       <div className='mb-5'>
         <h1 className='mb-3'>Current Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
-          <ul className='mb-1 list-outside list-disc px-3 text-left'>
+          <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
             <li className='mb-3 px-2'>
               Payment dapp on Solana focused on real usage and good UX - will be open-sourced once it's finished
             </li>
@@ -33,7 +33,7 @@ function DevBio() {
       <div className='mb-5'>
         <h1 className='mb-3'>Past Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
-          <ul className='mb-1 list-outside list-disc px-3 text-left'>
+          <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
             <li className='mb-3 px-2'>
               I worked on Jet Protocol's frontend and SDK for a year. At peak,
               we had $50M total value locked. It's 100% open source so you can
