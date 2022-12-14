@@ -1,8 +1,8 @@
 interface TimeLineItem {
   year: string;
-  month: string;
+  month: string | undefined;
   title: string;
-  subtitle: string;
+  subtitle: string | undefined;
   content: string;
 }
 

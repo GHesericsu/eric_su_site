@@ -11,7 +11,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className='layout z-100 sticky top-0 mb-5 overflow-visible bg-light-bg-1 dark:bg-dark-bg-1'>
+    <header className='layout z-100 relative top-0 mb-5 overflow-visible bg-light-bg-1 dark:bg-dark-bg-1'>
       <div className='layout h-20 max-w-screen-sm flex-col justify-items-center'>
         <div className='z-100 relative py-2'>
           <h1 data-testid='ericsu' className='text-center'>

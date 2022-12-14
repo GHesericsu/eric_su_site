@@ -7,7 +7,7 @@
   },
   "headwind.runOnSave": false,
   "typescript.preferences.importModuleSpecifier": "non-relative",
-  "cSpell.words": ["clsx"],
+  "cSpell.words": ["bootcamp", "BUIDL", "clsx", "Degens", "Hsin"],
   "typescript.tsdk": "./node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }
