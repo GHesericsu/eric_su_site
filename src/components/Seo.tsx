@@ -46,7 +46,7 @@ export default function Seo(props: SeoProps) {
     <Head>
       <title>{meta.title}</title>
       <meta name='robots' content={meta.robots} />
-      <meta content={meta.description} name='description' />
+      <meta name='description' content={meta.description} />
       <meta property='og:url' content={`${meta.url}${router.asPath}`} />
       <link rel='canonical' href={`${meta.url}${router.asPath}`} />
       {/* Open Graph */}
@@ -72,7 +72,7 @@ export default function Seo(props: SeoProps) {
           <meta
             name='author'
             property='article:author'
-            content='Theodorus Clarence'
+            content='Eric Su'
           />
         </>
       )}
