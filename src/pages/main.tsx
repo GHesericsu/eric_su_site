@@ -1,4 +1,4 @@
-import PrimaryLink from '@/components/links/PrimaryLink';
+import DevBio from '@/components/DevBio';
 import NextImage from '@/components/NextImage';
 
 const Main = () => {
@@ -16,14 +16,7 @@ const Main = () => {
       </div>
       <div>
         <div className='top-1'>
-          <h1 className='mt-4 inline-block'>
-            Web<span className='animate-bounce '>3</span> Dev
-          </h1>
-          <p>
-            It's Eric Su here. I worked on{' '}
-            <PrimaryLink href='http://jetprotocol.io'>Jet Protocol</PrimaryLink>{' '}
-            from July 2021 to July 2022.
-          </p>
+          <DevBio />
         </div>
       </div>
     </div>

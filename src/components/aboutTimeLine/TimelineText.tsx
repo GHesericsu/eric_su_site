@@ -37,14 +37,14 @@ const timelineText = [
     year: '2015',
     month: '',
     title: 'Shoes and Europe',
-    content: `I took a 6 months off from my 9-5 job and started to validate my shoes business idea. I had issues with my dress shoes and wanted to make more comfortable and also fashionable dress shoes. 3d printing and digital mapping have improved dramatically, so I wanted to utilize them to customize shoes for people. I went to London to learn how dress shoes were made. My Europe trip changed my personal values and perspectives in life. That's a story for another time.`
+    content: `I took a 6 months off from my 9-5 job and started to validate my shoes business idea. I had issues with my dress shoes and wanted to make more comfortable and also fashionable dress shoes. 3d printing and digital mapping have improved dramatically, so I wanted to utilize them to customize shoes for people. I went to London to learn how dress shoes were made. My Europe trip changed my personal values and perspectives in life. That's a story for another time.`,
   },
   {
     year: '2017',
     month: '',
     title: 'Leadership',
     subtitle: '',
-    content: `I joined a brand new payment startup as a sales executive. As I talked to customer and learn to sell the product, I developed the sales training, funnel, and strategy and participated in product design. Eventually, I helped them recruit and led a sales team. It was my first true leadership role at work. We grew from 4 people to 70+ people in 2 years. `
+    content: `I joined a brand new payment startup as a sales executive. As I talked to customer and learn to sell the product, I developed the sales training, funnel, and strategy and participated in product design. Eventually, I helped them recruit and led a sales team. It was my first true leadership role at work. We grew from 4 people to 70+ people in 2 years. `,
   },
   {
     year: '2020',
