@@ -1,7 +1,7 @@
 function DevBio() {
   return (
     <div className='flex-col'>
-      <div className='my-4'>
+      <div className='mt-4 mb-5'>
         <h1 className='mb-3'>Web3 Dev</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <p className='mb-3'>
@@ -20,7 +20,17 @@ function DevBio() {
           </p>
         </div>
       </div>
-      <div className=''>
+      <div className='mb-5'>
+        <h1 className='mb-3'>Current Projects</h1>
+        <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
+          <ul className='mb-1 list-outside list-disc px-3 text-left'>
+            <li className='mb-3 px-2'>
+              Payment dapp on Solana focused on real usage and good UX - will be open-sourced once it's finished
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className='mb-5'>
         <h1 className='mb-3'>Past Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left'>
