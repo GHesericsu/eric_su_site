@@ -1,26 +1,33 @@
 function DevBio() {
   return (
     <div className='flex-col'>
-      <div className='mt-4 mb-5'>
+      <div className='mt-4 mb-5 mx-2'>
         <h1 className='mb-3'>Web3 Dev</h1>
-        <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
-          <p className='mb-3'>
-            I'm a fullstack developer(frontend-focused) with a background in
+        <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2 text-left'>
+          <p>
+            Hi, I'm <a href='https://ericsu.xyz'>Eric Su  </a>. I'm a fullstack developer(frontend-focused) with a background in
             finance, sales, and payments.
           </p>
-          <p className='mb-3'>
+          <br />
+          <p>
             Day to day, I use Typescript, React, Node.js, Next.js, and
             Tailwind.css.
           </p>
-          <p className='mb-3'>
+          <br />
+          <p>
             I enjoy building Decentralized Applications on Solana. Open to build
             on other blockchains or other crypto/web3 related tools and
-            infrastructures. For databases, I'm familiar with MySQL like
-            Postgres and NoSQL like MongoDB
+            infrastructures. 
+          </p>
+          <br/>
+          <p>
+          For databases, I'm familiar with MySQL like
+            Postgres and NoSQL like MongoDB.
           </p>
         </div>
       </div>
-      <div className='mb-5'>
+
+      <div className='mb-5 mx-2'>
         <h1 className='mb-3'>Current Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
@@ -30,11 +37,12 @@ function DevBio() {
           </ul>
         </div>
       </div>
-      <div className='mb-5'>
+
+      <div className='mb-5 mx-2'>
         <h1 className='mb-3'>Past Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
-            <li className='mb-3 px-2'>
+            <li className='mb-3 px-2 hover:ring active:ring-4 hover:rounded-xl hover:image-box-shadow hover:border-primary-500 cursor-pointer'>
               I worked on Jet Protocol's frontend and SDK for a year. At peak,
               we had $50M total value locked. It's 100% open source so you can
               see all the code here

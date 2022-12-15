@@ -12,12 +12,12 @@ const links = [
 export default function Header() {
   return (
     <header className='layout z-100 relative top-0 mb-5 overflow-visible bg-light-bg-1 dark:bg-dark-bg-1'>
-      <div className='layout h-20 max-w-screen-sm flex-col justify-items-center'>
+      <div className='layout h-20 max-w-screen-md flex-col justify-items-center'>
         <div className='z-100 relative py-2'>
           <h1 data-testid='ericsu' className='text-center'>
             Who is Eric Su?
           </h1>
-          <div className='absolute right-0 top-5 hidden md:block'>
+          <div className='absolute right-0 top-3 md:block mx-2'>
             <ThemeToggleButton />
           </div>
         </div>
@@ -86,14 +86,14 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className='layout mb-2 flex h-8 max-w-screen-sm items-center justify-between'>
+      <div className='layout mb-2 flex h-8 max-w-screen-md items-center justify-between '>
         <UnderlineLink
           href='/'
-          className='font-bold hover:text-light-text-1 hover:dark:text-white'
+          className='font-bold hover:text-light-text-1 hover:dark:text-white ml-2'
         >
           Home
         </UnderlineLink>
-        <nav>
+        <nav className='mr-2'>
           <ul className='flex items-center justify-between space-x-4'>
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>

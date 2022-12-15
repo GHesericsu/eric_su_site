@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Header />
       <main className={theme === 'dark' ? 'wavesDark' : 'wavesLight'}>
         <section>
-          <div className='layout flex min-h-screen max-w-screen-sm justify-center text-center'>
+          <div className='layout flex min-h-screen max-w-screen-md justify-center text-center'>
             {children}
           </div>
         </section>

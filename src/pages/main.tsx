@@ -3,7 +3,7 @@ import NextImage from '@/components/NextImage';
 
 const Main = () => {
   return (
-    <div className='layout flex max-w-screen-sm flex-col items-center text-center'>
+    <div className='layout flex flex-col items-center text-center'>
       <div className=''>
         <NextImage
           useSkeleton
