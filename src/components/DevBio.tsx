@@ -15,7 +15,7 @@ function DevBio() {
           </p>
           <br />
           <p>
-            I enjoy building Decentralized Applications on Solana. Open to build
+            I enjoy building Decentralized Applications and contributing to open source projects on Solana. Open to build
             on other blockchains or other crypto/web3 related tools and
             infrastructures. 
           </p>
