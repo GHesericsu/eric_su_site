@@ -5,7 +5,7 @@ function MyDocument() {
   const { theme } = useTheme();
 
   return (
-    <Html lang='en' className={`${theme} md:text-[19px]` }>
+    <Html lang='en' className={`${theme} md:text-[19px]`}>
       <Head>
         <link
           rel='preload'

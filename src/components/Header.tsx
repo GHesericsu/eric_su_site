@@ -17,7 +17,7 @@ export default function Header() {
           <h1 data-testid='ericsu' className='text-center'>
             Who is Eric Su?
           </h1>
-          <div className='absolute right-0 top-3 md:block mx-2'>
+          <div className='absolute right-0 top-3 mx-2 md:block'>
             <ThemeToggleButton />
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function Header() {
       <div className='layout mb-2 flex h-8 max-w-screen-md items-center justify-between '>
         <UnderlineLink
           href='/'
-          className='font-bold hover:text-light-text-1 hover:dark:text-white ml-2'
+          className='ml-2 font-bold hover:text-light-text-1 hover:dark:text-white'
         >
           Home
         </UnderlineLink>

@@ -1,12 +1,13 @@
 function DevBio() {
   return (
     <div className='flex-col'>
-      <div className='mt-4 mb-5 mx-2'>
+      <div className='mx-2 mt-4 mb-5'>
         <h1 className='mb-3'>Web3 Dev</h1>
-        <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2 text-left'>
+        <div className='image-box-shadow rounded-3xl border-black p-5 text-left dark:bg-dark-bg-2'>
           <p>
-            Hi, I'm <a href='https://ericsu.xyz'>Eric Su  </a>. I'm a fullstack developer(frontend-focused) with a background in
-            finance, sales, and payments.
+            Hi, I'm <a href='https://ericsu.xyz'>Eric Su </a>. I'm a fullstack
+            developer(frontend-focused) with a background in finance, sales, and
+            payments.
           </p>
           <br />
           <p>
@@ -15,34 +16,35 @@ function DevBio() {
           </p>
           <br />
           <p>
-            I enjoy building Decentralized Applications and contributing to open source projects on Solana. Open to build
-            on other blockchains or other crypto/web3 related tools and
-            infrastructures. 
+            I enjoy building Decentralized Applications and contributing to open
+            source projects on Solana. Open to build on other blockchains or
+            other crypto/web3 related tools and infrastructures.
           </p>
-          <br/>
+          <br />
           <p>
-          For databases, I'm familiar with MySQL like
-            Postgres and NoSQL like MongoDB.
+            For databases, I'm familiar with MySQL like Postgres and NoSQL like
+            MongoDB.
           </p>
         </div>
       </div>
 
-      <div className='mb-5 mx-2'>
+      <div className='mx-2 mb-5'>
         <h1 className='mb-3'>Current Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
             <li className='mb-3 px-2'>
-              Payment dapp on Solana focused on real usage and good UX - will be open-sourced once it's finished
+              Payment dapp on Solana focused on real usage and good UX - will be
+              open-sourced once it's finished
             </li>
           </ul>
         </div>
       </div>
 
-      <div className='mb-5 mx-2'>
+      <div className='mx-2 mb-5'>
         <h1 className='mb-3'>Past Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
-            <li className='mb-3 px-2 hover:ring active:ring-4 hover:rounded-xl hover:image-box-shadow hover:border-primary-500 cursor-pointer'>
+            <li className='hover:image-box-shadow mb-3 cursor-pointer px-2 hover:rounded-xl hover:border-primary-500 hover:ring active:ring-4'>
               I worked on Jet Protocol's frontend and SDK for a year. At peak,
               we had $50M total value locked. It's 100% open source so you can
               see all the code here
