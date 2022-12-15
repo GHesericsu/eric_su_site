@@ -1,6 +1,5 @@
-<div align="center">
-  <h1>Eric Su Personal Website</h1>
-  <p>You can see the live website here at <a href='https://ericsu.xyz' target='_blank' rel='nofollow' ></a>ericsu.xyz</p>
-  
-  
-</div>
+# This is Eric Su's website repo
+
+You can see the live website at [EricSu.xyz](https://ericsu.xyz)
+
+Built with Typescript, React.js, Next.js, and Tailwind.css
