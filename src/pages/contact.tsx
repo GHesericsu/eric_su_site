@@ -6,9 +6,9 @@ import { MdContentCopy } from 'react-icons/md';
 
 import Button from '@/components/buttons/Button';
 import Layout from '@/components/Layout';
+import Seo from '@/components/Seo';
 
 import { pgpFingerprint, pgpPubkey } from '../constant/pgp';
-import Seo from '@/components/Seo';
 
 type MessageData = {
   name: string;
