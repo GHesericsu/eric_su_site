@@ -8,6 +8,7 @@ import Button from '@/components/buttons/Button';
 import Layout from '@/components/Layout';
 
 import { pgpFingerprint, pgpPubkey } from '../constant/pgp';
+import Seo from '@/components/Seo';
 
 type MessageData = {
   name: string;
@@ -65,6 +66,7 @@ function Contact() {
 
   return (
     <Layout>
+      <Seo title='Contact Eric Su'></Seo>
       <div className='flex-col p-3 md:min-w-[80%]'>
         <div className='mb-5'>
           <h1>Contact Me</h1>
