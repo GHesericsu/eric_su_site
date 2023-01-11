@@ -1,5 +1,5 @@
 {
-  "name": "ts-nextjs-tailwind-starter",
+  "name": "ericsu-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -43,7 +43,9 @@
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
     "autoprefixer": "^10.4.12",
+    "commitizen": "^4.2.6",
     "conventional-changelog-atom": "^2.0.8",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.24.0",
     "eslint-config-next": "^12.3.1",
     "eslint-config-prettier": "^8.5.0",
@@ -67,5 +69,15 @@
     "**/*.{json,css,scss,md}": [
       "prettier -w"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
   }
 }

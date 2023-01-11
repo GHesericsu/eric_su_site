@@ -12,11 +12,14 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
   ],
+  parserOptions:{
+    parser: "@typescript-eslint/parser",
+    project: "./tsconfig.json",
+  },
   rules: {
-    'no-unused-vars': 'off',
-    'no-console': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
-    'react/no-unescaped-entities': 'off',
+    'no-console': 'warn',
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
     'react/display-name': 'off',
     'react/jsx-curly-brace-presence': [
       'warn',
@@ -24,7 +27,6 @@ module.exports = {
     ],
 
     //#region  //*=========== Unused Import ===========
-    '@typescript-eslint/no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'warn',
     'unused-imports/no-unused-vars': [
       'warn',

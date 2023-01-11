@@ -17,8 +17,7 @@ const PrimaryLink = React.forwardRef<HTMLAnchorElement, UnstyledLinkProps>(
           'font-medium text-blue-500 hover:text-primary-500',
           'focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 focus-visible:ring-offset-2',
           className
-        )}
-      >
+        )}>
         {children}
       </UnstyledLink>
     );

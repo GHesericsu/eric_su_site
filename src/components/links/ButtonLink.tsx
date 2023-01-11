@@ -71,8 +71,7 @@ const ButtonLink = React.forwardRef<HTMLAnchorElement, ButtonLinkProps>(
           //#endregion  //*======== Variants ===========
           'disabled:cursor-not-allowed',
           className
-        )}
-      >
+        )}>
         {children}
       </UnstyledLink>
     );

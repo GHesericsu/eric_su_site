@@ -37,8 +37,7 @@ function ModeButton({
     <div>
       <div
         className='inline-block cursor-pointer rounded-full border border-black bg-primary-200 p-2 drop-shadow-lg hover:bg-primary-300 dark:bg-primary-600 hover:dark:bg-primary-700'
-        onClick={() => toggleTheme()}
-      >
+        onClick={() => toggleTheme()}>
         <IconContext.Provider value={{ className: '' }}>
           <div>
             {theme === 'dark' ? <MdDarkMode /> : <MdOutlineLightMode />}

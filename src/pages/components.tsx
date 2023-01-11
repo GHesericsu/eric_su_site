@@ -30,17 +30,14 @@ export default function ComponentsPage() {
         templateTitle='Components'
         description='Pre-built components with awesome default'
       />
-
       <main>
         <section
-          className={clsx(mode === 'dark' ? 'bg-dark' : 'bg-gray-50', color)}
-        >
+          className={clsx(mode === 'dark' ? 'bg-dark' : 'bg-gray-50', color)}>
           <div
             className={clsx(
               'layout min-h-screen py-20',
               mode === 'dark' ? 'text-white' : 'text-black'
-            )}
-          >
+            )}>
             <h1>Built-in Components</h1>
             <ArrowLink direction='left' className='mt-2' href='/'>
               Back to Home
@@ -49,8 +46,7 @@ export default function ComponentsPage() {
             <div className='mt-8 flex flex-wrap gap-2'>
               <Button
                 onClick={toggleMode}
-                variant={mode === 'dark' ? 'light' : 'dark'}
-              >
+                variant={mode === 'dark' ? 'light' : 'dark'}>
                 Set to {mode === 'dark' ? 'light' : 'dark'}
               </Button>
             </div>
@@ -74,8 +70,7 @@ export default function ComponentsPage() {
                         : 'border-gray-300 bg-white',
                       'focus:border-primary-400 focus:outline-none focus:ring focus:ring-primary-400'
                     )}
-                    onChange={(e) => setColor(e.target.value as Color)}
-                  >
+                    onChange={(e) => setColor(e.target.value as Color)}>
                     {colorList.map((c) => (
                       <option key={c} value={c}>
                         {c}
@@ -172,16 +167,14 @@ export default function ComponentsPage() {
                   <ArrowLink
                     as={UnstyledLink}
                     className='inline-flex items-center'
-                    href='/'
-                  >
+                    href='/'>
                     Polymorphic
                   </ArrowLink>
                   <ArrowLink
                     as={ButtonLink}
                     variant='light'
                     className='inline-flex items-center'
-                    href='/'
-                  >
+                    href='/'>
                     Polymorphic
                   </ArrowLink>
                 </div>
@@ -194,34 +187,29 @@ export default function ComponentsPage() {
                 <div className='flex flex-wrap gap-2'>
                   <ButtonLink
                     variant='primary'
-                    href='https://theodorusclarence.com'
-                  >
+                    href='https://theodorusclarence.com'>
                     Primary Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='outline'
                     isDarkBg={mode === 'dark'}
-                    href='https://theodorusclarence.com'
-                  >
+                    href='https://theodorusclarence.com'>
                     Outline Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='ghost'
                     isDarkBg={mode === 'dark'}
-                    href='https://theodorusclarence.com'
-                  >
+                    href='https://theodorusclarence.com'>
                     Ghost Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='dark'
-                    href='https://theodorusclarence.com'
-                  >
+                    href='https://theodorusclarence.com'>
                     Dark Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='light'
-                    href='https://theodorusclarence.com'
-                  >
+                    href='https://theodorusclarence.com'>
                     Light Variant
                   </ButtonLink>
                 </div>
@@ -266,8 +254,7 @@ export default function ComponentsPage() {
                   <Button
                     isLoading
                     variant='outline'
-                    isDarkBg={mode === 'dark'}
-                  >
+                    isDarkBg={mode === 'dark'}>
                     Disabled
                   </Button>
                   <Button isLoading variant='ghost' isDarkBg={mode === 'dark'}>

@@ -80,8 +80,7 @@ function Contact() {
                   sendEmail(data, e);
                 },
                 (err) => console.log(err)
-              )}
-            >
+              )}>
               <div className='my-1 flex justify-between px-2'>
                 <div>
                   <label htmlFor='name' className='mr-3'>
@@ -93,8 +92,7 @@ function Contact() {
                     type='text'
                     placeholder='Name'
                     {...register('name', {})}
-                    className='rounded-lg text-black focus:ring md:min-w-[24rem]'
-                  ></input>
+                    className='rounded-lg text-black focus:ring md:min-w-[24rem]'></input>
                 </div>
               </div>
               <div className='my-1 flex justify-between px-2'>
@@ -108,8 +106,7 @@ function Contact() {
                     type='email'
                     placeholder='Email Address'
                     {...register('email', {})}
-                    className='rounded-lg text-black focus:ring md:min-w-[24rem]'
-                  ></input>
+                    className='rounded-lg text-black focus:ring md:min-w-[24rem]'></input>
                 </div>
               </div>
               <div className='my-1 flex justify-between px-2'>
@@ -122,15 +119,13 @@ function Contact() {
                   <textarea
                     placeholder='Example: Hi Eric, I would like to have a quick chat about a web3 dev opportunity next Wednesday.'
                     {...register('message', {})}
-                    className='min-h-[10rem] rounded-lg text-black focus:ring md:min-w-[24rem]'
-                  ></textarea>
+                    className='min-h-[10rem] rounded-lg text-black focus:ring md:min-w-[24rem]'></textarea>
                 </div>
               </div>
               <div>
                 <Button
                   className='mb-4 inline-block w-[7rem] text-center'
-                  type='submit'
-                >
+                  type='submit'>
                   Send
                 </Button>
               </div>
@@ -155,8 +150,7 @@ function Contact() {
           </div>
           <div
             className='m-auto mb-1 inline-block max-w-lg rounded-lg border border-dark-bg-1 p-2 text-center align-middle hover:cursor-pointer dark:border dark:border-light-bg-1'
-            onClick={handleShowPubkey}
-          >
+            onClick={handleShowPubkey}>
             Show/Hide my PGP Public Key
           </div>
           {showPubkey && (

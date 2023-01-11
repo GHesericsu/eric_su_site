@@ -17,8 +17,7 @@ const UnderlineLink = React.forwardRef<HTMLAnchorElement, UnstyledLinkProps>(
           'focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 focus-visible:ring-offset-2',
           'border-dark border-b border-dotted hover:border-black/0 hover:text-black dark:hover:text-white dark:active:text-primary-400',
           className
-        )}
-      >
+        )}>
         {children}
       </UnstyledLink>
     );
