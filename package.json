@@ -16,7 +16,8 @@
     "format:check": "prettier -c src",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "prepare": "husky install",
-    "pre-commit": "yarn format && yarn lint:fix && yarn test && yarn typecheck"
+    "pre-commit": "yarn format && yarn lint:fix && yarn test && yarn typecheck",
+    "commit": "cz"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

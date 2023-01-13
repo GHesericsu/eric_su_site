@@ -36,6 +36,9 @@ function DevBio() {
               Payment dapp on Solana focused on real usage and good UX - will be
               open-sourced once it's finished
             </li>
+            <li className='mb-3 px-2'>
+              A DAO Creation Platform on Polkadot
+            </li>
           </ul>
         </div>
       </div>
