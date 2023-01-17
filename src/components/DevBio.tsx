@@ -5,25 +5,25 @@ function DevBio() {
         <h1 className='mb-3'>Web3 Dev</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 text-left dark:bg-dark-bg-2'>
           <p>
-            Hi, I'm <a href='https://ericsu.xyz'>Eric Su </a>. I'm a fullstack
+            {`Hi, I'm <a href='https://ericsu.xyz'>Eric Su </a>. I'm a fullstack
             developer(frontend-focused) with a background in finance, sales, and
-            payments.
+            payments.`}
           </p>
           <br />
           <p>
-            Day to day, I use Typescript, React, Node.js, Next.js, and
-            Tailwind.css.
+            {`Day to day, I use Typescript, React, Node.js, Next.js, and
+            Tailwind.css.`}
           </p>
           <br />
           <p>
-            I enjoy building Decentralized Applications and contributing to open
+            {`I enjoy building Decentralized Applications and contributing to open
             source projects on Solana. Open to build on other blockchains or
-            other crypto/web3 related tools and infrastructures.
+            other crypto/web3 related tools and infrastructures.`}
           </p>
           <br />
           <p>
-            For databases, I'm familiar with MySQL like Postgres and NoSQL like
-            MongoDB.
+            {`For databases, I'm familiar with MySQL like Postgres and NoSQL like
+            MongoDB.`}
           </p>
         </div>
       </div>
@@ -33,12 +33,10 @@ function DevBio() {
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
             <li className='mb-3 px-2'>
-              Payment dapp on Solana focused on real usage and good UX - will be
-              open-sourced once it's finished
+              {`Payment dapp on Solana focused on real usage and good UX - will be
+              open-sourced once it's finished`}
             </li>
-            <li className='mb-3 px-2'>
-              A DAO Creation Platform on Polkadot
-            </li>
+            <li className='mb-3 px-2'>A DAO Creation Platform on Polkadot</li>
           </ul>
         </div>
       </div>
@@ -48,24 +46,24 @@ function DevBio() {
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
             <li className='hover:image-box-shadow mb-3 cursor-pointer px-2 hover:rounded-xl hover:border-primary-500 hover:ring active:ring-4'>
-              I worked on Jet Protocol's frontend and SDK for a year. At peak,
+              {`I worked on Jet Protocol's frontend and SDK for a year. At peak,
               we had $50M total value locked. It's 100% open source so you can
-              see all the code here
+              see all the code here`}
             </li>
             <li className='mb-3 px-2'>
-              I built an application where we display curated electronic music
-              events in NYC. I used Next.js and Sanity.io as the headless CMS.
+              {`I built an application where we display curated electronic music
+              events in NYC. I used Next.js and Sanity.io as the headless CMS.`}
             </li>
             <li className='mb-3 px-2'>
               I designed and implemented the UI of a users reviews microservice.
             </li>
             <li className='mb-2 px-2'>
-              I redesigned the APIs of a photo gallery microservice to
-              accommodate 100MM primary records.
+              {`I redesigned the APIs of a photo gallery microservice to
+              accommodate 100MM primary records.`}
             </li>
             <li className='mb-3 px-2'>
-              I built a RTMP server in Node and transcoded streams into HLS
-              using FFmpeg to display live streams to viewers
+              {`I built a RTMP server in Node and transcoded streams into HLS
+              using FFmpeg to display live streams to viewers`}
             </li>
           </ul>
         </div>

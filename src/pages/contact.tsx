@@ -21,7 +21,6 @@ function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [show, setShow] = useState(false);
   const [showPubkey, setShowPubkey] = useState(false);
-  const [showFingerPrint, setShowFingerPrint] = useState(false);
 
   const sendEmail = (data: Record<string, unknown>, event: any) => {
     if (event) {

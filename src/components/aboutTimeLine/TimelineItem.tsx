@@ -6,7 +6,7 @@ interface TimeLineItem {
   content: string;
 }
 
-function TimelineItem({ year, month, title, subtitle, content }: TimeLineItem) {
+function TimelineItem({ year, title, subtitle, content }: TimeLineItem) {
   return (
     <li className='mb-7 ml-4'>
       <div className='absolute -left-[0.6rem] h-4 w-4 rounded-full border-4 border-primary-500 bg-white'></div>
