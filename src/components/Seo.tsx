@@ -14,7 +14,8 @@ const defaultMeta = {
    * No need to be filled, will be populated with openGraph function
    * If you wish to use a normal image, just specify the path below
    */
-  image: 'https://tsnext-tw.thcl.dev/images/large-og.png',
+  image:
+    'https://www.ericsu.xyz/_next/image?url=%2Fimages%2Feric_su_photo1.jpeg&w=384&q=75',
 };
 
 type SeoProps = {

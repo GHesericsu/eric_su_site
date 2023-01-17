@@ -5,7 +5,9 @@ function DevBio() {
         <h1 className='mb-3'>Web3 Dev</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 text-left dark:bg-dark-bg-2'>
           <p>
-            {`Hi, I'm <a href='https://ericsu.xyz'>Eric Su </a>. I'm a fullstack
+            {`Hi, I'm ${(
+              <a href='https://ericsu.xyz'>Eric Su </a>
+            )}. I'm a fullstack
             developer(frontend-focused) with a background in finance, sales, and
             payments.`}
           </p>
