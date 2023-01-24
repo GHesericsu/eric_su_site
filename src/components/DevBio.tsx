@@ -5,9 +5,9 @@ function DevBio() {
         <h1 className='mb-3'>Web3 Dev</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 text-left dark:bg-dark-bg-2'>
           <p>
-            {`Hi, I'm ${(
-              <a href='https://ericsu.xyz'>Eric Su </a>
-            )}. I'm a fullstack
+            {`Hi, I'm `}
+              <a href='https://ericsu.xyz'>Eric Su</a>
+            {`. I'm a fullstack
             developer(frontend-focused) with a background in finance, sales, and
             payments.`}
           </p>
@@ -35,10 +35,10 @@ function DevBio() {
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
             <li className='mb-3 px-2'>
-              {`Payment dapp on Solana focused on real usage and good UX - will be
+              {`Payment dapp for independent contractor on Solana - will be
               open-sourced once it's finished`}
             </li>
-            <li className='mb-3 px-2'>A DAO Creation Platform on Polkadot</li>
+            <li className='mb-3 px-2'>A DAO Platform and parachain on Polkadot</li>
           </ul>
         </div>
       </div>
