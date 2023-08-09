@@ -6,7 +6,7 @@ function DevBio() {
         <div className='image-box-shadow rounded-3xl border-black p-5 text-left dark:bg-dark-bg-2'>
           <p>
             {`Hi, I'm `}
-              <a href='https://ericsu.xyz'>Eric Su</a>
+            <a href='https://ericsu.xyz'>Eric Su</a>
             {`. I'm a fullstack
             developer(frontend-focused) with a background in finance, sales, and
             payments.`}
@@ -31,14 +31,17 @@ function DevBio() {
       </div>
 
       <div className='mx-2 mb-5'>
-        <h1 className='mb-3'>Current Projects</h1>
+        <h1 className='mb-3'>Current Projects 2023</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
+            <li className='mb-3 px-2'>A multisig tool on Stellar</li>
             <li className='mb-3 px-2'>
-              {`Payment dapp for independent contractor on Solana - will be
-              open-sourced once it's finished`}
+              {`A another DAO platform on Stellar's smart contract platform
+              Soroban`}
             </li>
-            <li className='mb-3 px-2'>A DAO Platform and parachain on Polkadot</li>
+            <li className='mb-3 px-2'>
+              A complete no-code DAO Platform and parachain on Polkadot
+            </li>
           </ul>
         </div>
       </div>
@@ -47,10 +50,24 @@ function DevBio() {
         <h1 className='mb-3'>Past Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
-            <li className='hover:image-box-shadow mb-3 cursor-pointer px-2 hover:rounded-xl hover:border-primary-500 hover:ring active:ring-4'>
-              {`I worked on Jet Protocol's frontend and SDK for a year. At peak,
-              we had $50M total value locked. It's 100% open source so you can
-              see all the code here`}
+            <li className='mb-3 px-2'>
+              I built the entire
+              <a
+                href='https://github.com/deep-ink-ventures/genesis-dao-frontend'
+                target='_blank'
+                className='text-blue-500'
+                rel='noreferrer'>{` frontend for GenesisDao `}</a>{' '}
+              on Polkadot in 2023
+            </li>
+            <li className='mb-3 px-2'>
+              {`I worked on `}
+              <a
+                href='https://github.com/jet-lab'
+                target='_blank'
+                className='text-blue-500'
+                rel='noreferrer'>{`Jet Protocol's frontend and SDK `}</a>
+              {`for a year from 2021-2022. At peak,
+              we had $50M total value locked. It's 100% open source.`}
             </li>
             <li className='mb-3 px-2'>
               {`I built an application where we display curated electronic music

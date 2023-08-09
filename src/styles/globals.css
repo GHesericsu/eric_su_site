@@ -7,8 +7,6 @@ html {
 }
 
 :root {
-  /* #region  /**=========== Primary Color =========== */
-  /* !STARTERCONF Customize these variable, copy and paste from /styles/colors.css for list of colors */
   --tw-color-primary-50: 239 246 255;
   --tw-color-primary-100: 219 234 254;
   --tw-color-primary-200: 191 219 254;

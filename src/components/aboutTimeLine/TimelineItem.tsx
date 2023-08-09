@@ -18,14 +18,4 @@ function TimelineItem({ year, title, subtitle, content }: TimeLineItem) {
   );
 }
 
-/**
- *
- * @param a
- * @param b
- * @returns {number}
- */
-function mul(a: number, b: number) {
-  return a + b;
-}
-
 export default TimelineItem;

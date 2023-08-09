@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-// !STARTERCONF Change these default meta
 const defaultMeta = {
   title: 'Eric Su is...?',
   siteName: 'Eric Su is...?',
@@ -32,16 +31,6 @@ export default function Seo(props: SeoProps) {
   meta['title'] = props.templateTitle
     ? `${props.templateTitle} | ${meta.siteName}`
     : meta.title;
-
-  // Use siteName if there is templateTitle
-  // but show full title if there is none
-  // !STARTERCONF Follow config for opengraph, by deploying one on https://github.com/theodorusclarence/og
-  // ? Uncomment code below if you want to use default open graph
-  // meta['image'] = openGraph({
-  //   description: meta.description,
-  //   siteName: props.templateTitle ? meta.siteName : meta.title,
-  //   templateTitle: props.templateTitle,
-  // });
 
   return (
     <Head>
@@ -94,8 +83,6 @@ type Favicons = {
   sizes?: string;
   type?: string;
 };
-
-// !STARTERCONF this is the default favicon, you can generate your own from https://www.favicon-generator.org/ then replace the whole /public/favicon folder
 const favicons: Array<Favicons> = [
   {
     rel: 'apple-touch-icon',
