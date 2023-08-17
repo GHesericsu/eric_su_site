@@ -8,7 +8,7 @@ const AboutPage = () => {
       <Seo title='About Eric Su'></Seo>
       <div>
         <div>
-          <h2 className='mb-3'>The Longer Version of About Me</h2>
+          <h2 className='mb-3 text-2xl'>The Longer Version About Eric Su</h2>
         </div>
         <div>
           <Timeline />

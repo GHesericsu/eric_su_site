@@ -10,7 +10,7 @@ const timelineText = [
     month: '',
     title: 'From Science Park to Trailer Park',
     subtitle: '',
-    content: `I went from walking home and picking dinner up from 7-11 after school in Hsin-chu, Taiwan to driving through cornfield to get to my school in Indianapolis. I faced one of my biggest life challenges. I had to overcome language barriers, start a new social circle from scratch, and assimilate into a new culture as a teenager without my family around, and in the mean time get study hard in an unfamiliar language so I can get into a good school.`,
+    content: `I went from walking home and picking dinner up from 7-11 after school in Taiwan to driving through cornfield to get to my school in Indianapolis. I faced one of my biggest life challenges. I had to overcome language barriers, start a new social circle from scratch, and assimilate into a new culture as a teenager without my family around, and in the mean time get study hard in an unfamiliar language so I can get into a good school.`,
   },
   {
     year: '2012',

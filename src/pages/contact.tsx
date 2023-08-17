@@ -69,7 +69,7 @@ function Contact() {
       <Seo title='Contact Eric Su'></Seo>
       <div className='flex-col p-3 md:min-w-[80%]'>
         <div className='mb-5'>
-          <h1>Contact Me</h1>
+          <h2 className='text-2xl'>Contact Eric Su</h2>
         </div>
         <div className='flex justify-center'>
           <div className='m-auto px-6'>
