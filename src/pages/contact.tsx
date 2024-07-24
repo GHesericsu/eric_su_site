@@ -41,7 +41,7 @@ function Contact() {
           console.log('EMAILJS ERROR', err);
         });
     } else {
-          // eslint-disable-next-line
+      // eslint-disable-next-line
       console.log('EmailJS failed');
     }
   };

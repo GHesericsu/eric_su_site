@@ -34,14 +34,7 @@ function DevBio() {
         <h1 className='mb-3'>Current Projects 2023</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
-            <li className='mb-3 px-2'>A multisig tool on Stellar</li>
-            <li className='mb-3 px-2'>
-              {`A another DAO platform on Stellar's smart contract platform
-              Soroban`}
-            </li>
-            <li className='mb-3 px-2'>
-              A complete no-code DAO Platform and parachain on Polkadot
-            </li>
+            <li className='mb-3 px-2'>Something exciting</li>
           </ul>
         </div>
       </div>
@@ -50,6 +43,24 @@ function DevBio() {
         <h1 className='mb-3'>Past Projects</h1>
         <div className='image-box-shadow rounded-3xl border-black p-5 dark:bg-dark-bg-2'>
           <ul className='mb-1 list-outside list-disc px-3 text-left marker:text-primary-600'>
+            <li className='mb-3 px-2'>
+              I built the
+              <a
+                href='https://github.com/deep-ink-ventures/multiclique-frontend'
+                target='_blank'
+                className='text-blue-500'
+                rel='noreferrer'>{` frontend for MultiClique`}</a>
+              , a multi-signature tool on Stellar using Soroban.
+            </li>
+            <li className='mb-3 px-2'>
+              I built the
+              <a
+                href='https://github.com/deep-ink-ventures/elio-dao-frontend'
+                target='_blank'
+                className='text-blue-500'
+                rel='noreferrer'>{` frontend for ElioDAO`}</a>
+              , a DAO creation platform on Stellar using Soroban.
+            </li>
             <li className='mb-3 px-2'>
               I built the entire
               <a
